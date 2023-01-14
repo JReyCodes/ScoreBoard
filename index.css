@@ -1,0 +1,106 @@
+@font-face {
+    src: url(timerFont.ttf);
+    font-family: timerFont;
+}
+ 
+body {
+    margin: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: url(https://baileysgym.com/media/clubphotos/wst/wst-basketball2.jpg);
+    background-size: cover;
+    text-shadow: 1px 1px 5px black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    height: 400px;
+    width: 575px;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+.score-button {
+    background: black;
+    height: 120px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: timerFont;
+    color: red;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 380px;
+}
+
+.addbuttons {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    width: 175px;
+    margin: 20px;
+}
+
+.addbuttons-away button {
+    background: transparent;
+    border: 2.5px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    font-family: timerFont ;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.addbuttons-home button {
+    background: transparent;
+    border: 2.5px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    font-family: timerFont ;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-right: 
+}
+
+.team-section img {
+    height: 50px;
+    margin-top: 20px;
+}
+
+#new-game {
+    display: flex;
+    height: 470px;
+    justify-content: center;
+    align-items: center;
+}
+
+#new-game button {
+    background: transparent;
+    border: 2.5px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    font-family: timerFont ;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+#homeCrown {
+
+}
